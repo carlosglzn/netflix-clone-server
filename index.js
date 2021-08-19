@@ -24,6 +24,6 @@ app.get('/', (req, res) => {
 // 4. SERVER
 
 app.listen(process.env.PORT, () => {
-    console.log('Connected to server')
+    console.log('Server is running')
 })
 
