@@ -3,7 +3,7 @@ const router  = express.Router()
 const CryptoJS = require('crypto-js')
 const User = require('./../models/User')
 const verify = require('../verifyToken')
-const userController = require('./../controllers/usersController')
+
 
 // UPDATE
 

@@ -19,6 +19,8 @@ app.use(express.json({extended: true}))
 
 app.use("/api/auth", require('./routes/auth'))
 app.use("/api/users", require('./routes/users'))
+app.use('/api/movies', require('./routes/movies'))
+app.use('/api/lists', require('./routes/lists'))
 
 app.get('/', (req, res) => {
     res.send('Hello World!')
